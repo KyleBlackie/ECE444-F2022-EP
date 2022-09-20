@@ -61,19 +61,21 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/about">
                   About Us
                 </Nav.Link>
-
+                <Nav.Link as={Link} to="/ece444-lab1">
+                  ECE444-Lab1
+                </Nav.Link>
                 {/* <Nav.Link href="/search" style={{ color: "white", display: "inline" }}>
                   Search
                 </Nav.Link> */}
-
-                
-
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
         <div>
           <Switch>
+          <Route path="/ece444-lab1">
+            <p>Kyle Blackie</p>
+          </Route>
           <Route path="/about">
             <div className = "body_text">
             <p>
